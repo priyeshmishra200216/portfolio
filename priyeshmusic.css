@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+body{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.container{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/bacground.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.logo{
+    display: flex;
+    padding: 40px 80px;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: fixed;
+}
+nav{
+    padding-top: 100px;
+    position: fixed;
+}
+.home{
+    margin-right: -70px;
+    margin-top: 120px;
+}
+nav a{
+    padding: 40px 0px;
+    padding-top: 60px;
+    transform: rotate(90deg);
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    padding-right: -20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+    
+   
+}
+li:hover{
+ color: rgb(243, 41, 41);
+ transition: ease-in 0.3s;
+ 
+}
+.socialmedia{
+    
+    margin-top: -115px;
+    margin-left: 350%;
+    
+}
+
+.socialmedia ul{
+    
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding-right: 10px;
+    
+ 
+
+    cursor: pointer;
+   
+}
+.socialmedia ul a {
+    transform: rotate(-360deg);
+    
+    
+    
+}
+
+ .fa-facebook-f , .fa-twitter,.fa-tumblr,.fa-spotify,.fa-music,.fa-youtube,.fa-envelope{
+     margin-left: 20px;
+ }
+
+.info{
+    float: right;
+    padding: 0px 300px;
+    margin-top: -300px;
+    margin-left: 270px;
+    
+}
+.user{
+    display: flex;
+    margin-top: -500px;
+   margin-left: 200px;
+ 
+
+}
+.user img{
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 10px 0px 5px rgba(112, 112, 112, 0.4);
+    
+    display: flex;
+    
+}
+
+.page3{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)), url(images/page\ 3.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.container,.page1,.page2,.page3{
+    scroll-snap-align: start;
+}
+.page2{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/page\ 2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.songs{
+    display: flex;
+    padding: 42px 650px;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+.youtube img{
+    display: flex;
+padding: 125px 210px;
+
+
+
+}
+
+.yinfo{
+    
+    float: right;
+    padding: 30px 60px;
+    margin-top: -490px;
+    margin-left: 780px;
+    
+    margin-right: 30px;
+}
+.stream{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+form{
+    display:inline-block;
+    margin-left: 40%;
+    padding: 400px 0px;
+    box-sizing: content-box;
+    
+    
+}
+input[type=text]{
+    width: 100%;
+    background-color: transparent;
+    margin: auto;
+    color: white;
+}
+fieldset{
+    border: none;
+    margin: 10px;
+    font-size: 12px;
+}
+input[type=button]{
+    background: transparent;
+    border: none;
+   
+    
+}
+#surender{
+    margin-left: 20px;
+}
+.but{
+    width: 30%;
+    padding: 5px 10px;
+  margin: 8px 0;
+  cursor: pointer;
+  margin-left: 32%;
+  transition: ease-in 0.3s;
+  border-radius: 10px;
+}
+select{
+    background-color: transparent;
+    -webkit-appearance: none;
+    border: none;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: red;
+    
+}
+
